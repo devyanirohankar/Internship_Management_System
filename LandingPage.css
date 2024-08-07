@@ -1,0 +1,58 @@
+.home-label {
+  background-color: lightblue;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.login-section {
+  width: 45%; /* Adjust width as needed */
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.intern-login {
+  background-color: #3498db;
+  color: white;
+}
+
+.mentor-login {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.intern-button, .mentor-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.intern-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.mentor-button {
+  background-color: #2ecc71;
+  color: white;
+}

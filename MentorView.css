@@ -1,0 +1,89 @@
+.mentor-view {
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.batch-list, .intern-list {
+  margin-bottom: 20px;
+}
+
+.batch-list h2, .intern-list h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.batch-form-container, .intern-form-container {
+  margin-top: 20px;
+}
+
+.batch-form-title, .intern-form-title {
+  margin-bottom: 20px;
+}
+
+.batch-form, .intern-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.batch-form label, .intern-form label {
+  margin-bottom: 5px;
+}
+
+.batch-form input, .intern-form input, .intern-form select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.save-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
